@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+
+:root {
+    scroll-behavior: smooth;
+}
+
 * {
     user-select: none;
     margin: 0 auto;
     padding: 0 auto;
 }
 
+
+
 .container {
     width: 1920px;
     height: 12093px;
-    background: #0C0B08;
     margin: 0 auto;
+    background: url(./src/img/waveelement.png) no-repeat 0 1110px / contain #0C0B08;
+
 }
 
 .header {
@@ -78,8 +86,8 @@
     width: 1680px;
     height: 828px;
     top: 169px;
-   display: flex;
-   gap: 100px;
+    display: flex;
+    gap: 100px;
 }
 
 .main-menu-hashtags {
@@ -110,7 +118,7 @@
     height: 481px;
 }
 
-.main-menu-pretitle {
+.section-pretitle {
     font-family: "Cormorant Upright", serif;
     font-size: 23px;
     font-weight: 700;
@@ -159,6 +167,7 @@
     line-height: 28px;
     letter-spacing: 0.04em;
     padding: 8px 32px 8px 32px;
+    cursor: pointer;
 }
 
 .main-menu-button {
@@ -196,4 +205,285 @@
     height: 113px;
     margin-top: 760px;
     margin-right: 0px;
+}
+
+.about-us-our-history {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1200px;
+    background: url(./src/img/aboutus-ourhistory-bg.jpg) no-repeat 0 170px / contain;
+}
+
+.aboutus-ourhistory-pictures {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.aboutus-ourhistory-picture {
+    position: absolute;
+}
+
+.section-title {
+    font-family: "Cormorant Upright", serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    color: #DCCA87;
+}
+
+.aboutus-ourhistory-title1 {
+    margin-left: 269px;
+}
+
+.aboutus-ourhistory-info1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 523px;
+    height: 292px;
+    gap: 32px;
+    text-align: right;
+}
+
+.aboutus-ourhistory-vector1 {
+    transform: rotate(-180deg);
+    margin-left: 480px;
+}
+
+.aboutus-ourhistory-text1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    width: 523px;
+    height: 84px;
+    text-align: right;
+}
+
+.aboutus-ourhistory-info2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 523px;
+    height: 292px;
+    gap: 32px;
+}
+
+.aboutus-ourhistory-text2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    width: 523px;
+    height: 84px;
+    text-align: left;
+}
+
+.aboutus-ourhistory-title2 {
+    margin-right: 195px;
+}
+
+.aboutus-ourhistory-vector2 {
+    margin-right: 480px;
+}
+
+
+.booking-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1364px;
+    height: 466px;
+    padding: 48px 32px 48px 32px;
+    border: 1px;
+    background: #0C0C0C;
+    border: 1px solid #DCCA8733;
+    box-shadow: 22px 30px 95px 1px #000000B2;
+    gap: 64px;
+    margin-top: 30px;
+}
+
+
+.booking-vector {
+    margin-top: -48px;
+}
+
+.booking-box>.section-title {
+    margin-top: -50px;
+}
+
+.booking-input-wrappers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 20px;
+}
+
+.input-wrapper-inside {
+    font-family: "Cormorant Upright", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #AAAAAA;
+    width: 412px;
+    height: 60px;
+    border: 1px;
+    border: 1px solid #F5EFDB;
+    background: #0C0C0C;
+    padding-left: 16px;
+}
+
+.booking-button {
+    margin-top: 100px;
+}
+
+.booking-icon {
+    margin-left: 1623px;
+    margin-top: -90px;
+}
+
+.menu-searches {
+    height: 1100px;
+    background: url(./src/img/menu-searches-bg.jpg) no-repeat 0 170px / contain;
+    border-image-source: linear-gradient(270deg, rgba(250, 250, 250, 0.24) -19.44%, #FAFAFA 44.12%, rgba(250, 250, 250, 0) 117.57%);
+}
+
+.menu-searches-icon {
+    margin-left: 150px;
+    margin-top: 185px;
+}
+
+.menu-searches-link {
+    font-family: "Cormorant Upright", serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.menu-searches-links {
+    gap: 64px;
+    width: 400px;
+    height: 377px;
+    margin-left: 140px;
+    margin-top: 100px;
+}
+
+.menu-searches-link:hover {
+    text-decoration: underline;
+}
+
+.barmenu-special {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    height: 970px;
+}
+
+.barmenu-special-groups {
+    display: flex;
+    margin-top: 96px;
+    gap: 32px;
+}
+
+.barmenu-special{
+    margin-top: 152px;
+}
+
+.barmenu-special-vector{
+    margin-top: 8px;
+}
+.barmenu-special .section-title{
+    margin-top: 8px;
+}
+
+.barmenu-special-group-title {
+    font-family: "Cormorant Upright", serif;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.barmenu-special-minigroup {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+.barmenu-minigroup-drink {
+    font-family: "Cormorant Upright", serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #DCCA87;
+    width: 192px;
+height: 27px;
+}
+
+.barmenu-minigroup-price {
+    font-family: "Cormorant Upright", serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.barmenu-minigroup-line {
+    width: 119px;
+    height: 1px;
+}
+
+.barmenu-minigroup-info {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #AAAAAA;
+    display: block;
+    margin-right: 315px;
+}
+
+.barmenu-special-group2 .barmenu-minigroup-info{
+    margin-right: 0;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.barmenu-special-photo{
+    margin-top: -32px;
+}
+
+.barmenu-button{
+    margin-top: 72px;
 }
