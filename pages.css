@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root {
+    scroll-behavior: smooth;
+}
+
+* {
+    user-select: none;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+
+.container {
+    width: 1920px;
+    height: 12093px;
+    margin: 0 auto;
+    background: url(./src/img/waveelement.png) no-repeat 20px 1110px / contain #0C0B08;
+
+}
+
+
+.header {
+    width: 1920px;
+    height: 1085px;
+    background: url(./src/img/background.jpg) no-repeat 0 0 / 1920px 1299px;
+    padding-top: 32px;
+}
+
+.header-logo {
+    font-family: "Cormorant Upright", serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.2px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-left: 120px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-nav {
+    list-style-type: none;
+    display: flex;
+    margin-top: -45px;
+    margin-left: 700px;
+    gap: 32px;
+    width: 410px;
+    cursor: pointer;
+}
+
+.header-nav a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+    margin-top: -43px;
+    margin-right: 150px;
+    width: 370px;
+}
+
+.header-info a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.header-nav-info-line {
+    height: 57px;
+}
+
+
+.ontherocks-hashtags {
+    display: flex;
+    flex-direction: row;
+    transform: rotate(-90deg);
+    gap: 40px;
+    width: 32px;
+    height: 161px;
+    
+}
+
+.ontherocks-hashtag {
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31.5px;
+    letter-spacing: 0.04em;
+    width: 78px;
+    text-decoration: none;
+}
+
+.ontherocks-title {
+    font-family: "Cormorant Upright", serif;
+    font-size: 181px;
+    font-weight: 700;
+    line-height: 235.3px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: -510px;
+    margin-left: -220px;
+}
+
+
+.ontherocks-sliders {
+    display: flex;
+    width: 116px;
+    gap: 8px;
+    transform: rotate(90deg);
+    margin-top: 600px;
+    margin-right: 90px;
+}
+
+.ontherocks-slider {
+    display: flex;
+    align-items: center;
+    font-family: "Cormorant Upright", serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #F5EFDB;
+}
+
+.ontherocks {
+    display: flex;
+    height: 893px;
+    margin-top: 30px;
+}
+
+.ontherocks-hashtags {
+    margin-top: 250px;
+    margin-left: 182px;
+}
+
+.ontherocks-img {
+    width: 619px;
+    height: 825px;
+    border: 1px solid #DCCA87;
+    
+}
+
+.ontherocks-scroll {
+    width: 61px;
+    height: 106px;
+    margin-top: 780px;
+    margin-left: -350px;
+    position: absolute;
+}
+
+
+
+.booking-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1364px;
+    height: 466px;
+    padding: 48px 32px 48px 32px;
+    border: 1px;
+    background: #0C0C0C;
+    border: 1px solid #DCCA8733;
+    box-shadow: 22px 30px 95px 1px #000000B2;
+    gap: 64px;
+    margin-top: 30px;
+}
+
+
+
+.booking-input-wrappers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 20px;
+}
+
+.input-wrapper-inside {
+    font-family: "Cormorant Upright", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #AAAAAA;
+    width: 412px;
+    height: 60px;
+    border: 1px;
+    border: 1px solid #F5EFDB;
+    background: #0C0C0C;
+    padding-left: 16px;
+}
+
+.booking-button {
+    margin-top: 60px;
+}
+
+.booking-icon {
+    margin-left: 1623px;
+    margin-top: -30px;
+}
+
+
+.section-titles {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.section-title {
+    font-family: "Cormorant Upright", serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    color: #DCCA87;
+}
+
+
+.section-pretitle {
+    font-family: "Cormorant Upright", serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.button {
+    background: #DCCA87;
+    color: #0C0B08;
+    font-family: "Cormorant Upright", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    padding: 8px 32px 8px 32px;
+    cursor: pointer;
+}
