@@ -12,23 +12,23 @@
 
 <body>
     <div class="container">
-        <header class="header">
-            <div class="header-logo">Gerícht</div>
+        <header class="header" id="header-id">
+            <a href="./index.html" class="header-logo">Gerícht</a>
             <ul class="header-nav">
                 <li><a href="">Home</a></li>
                 <li><a href="">Pages</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Landing</a></li>
+                <li><a href="#footer-id">Contact Us</a></li>
+                <li><a href="#update-id">Blog</a></li>
+                <li><a href="#newsletter-id">Landing</a></li>
             </ul>
             <ul class="header-info">
                 <li><a href="">Log In / Registration</a></li>
                 <img src="./src/img/header-nav-info-linephoto.png" alt="" class="header-nav-info-line">
-                <li><a href="">Book Table</a></li>
+                <li><a href="#booking-id">Book Table</a></li>
             </ul>
         </header>
         <main class="main">
-            <div class="main-menu">
+            <section class="main-menu">
                 <div class="main-menu-hashtags">
                     <div class="main-menu-hashtag">#Bar</div>
                     <div class="main-menu-hashtag">#Gericht</div>
@@ -53,9 +53,9 @@
                     </div>
                 </div>
                 <img src="./src/img/main-menu-mainimg.png" alt="" class="main-menu-mainimg">
-                <img src="./src/img/main-menu-scroll.png" alt="" class="main-menu-scroll">
-            </div>
-            <div class="about-us-our-history">
+               <a href="#footer-id"><img src="./src/img/main-menu-scroll.png" alt="" class="main-menu-scroll"></a> 
+            </section>
+            <section class="about-us-our-history">
                 <div class="aboutus-ourhistory-pictures">
                     <img src="./src/img/aboutus-ourhistory-g.svg" alt="" class="aboutus-ourhistory-picture">
                     <img src="./src/img/aboutus-ourhistory-knife.png" alt="" class="aboutus-ourhistory-picture">
@@ -76,13 +76,15 @@
                     </div>
                     <button class="button aboutus-ourhistory-button">Know More</button>
                 </div>
-            </div>
-            <div class="booking">
+            </section>
+            <section class="booking" id="booking-id">
                 <img src="./src/img/favicon.png" alt="" class="booking-icon">
                 <div class="booking-box">
-                    <div class="section-pretitle">Reservations</div>
-                    <img src="./src/img/vector.png" alt="" class="booking-vector">
-                    <div class="section-title">Book A Table</div>
+                    <div class="section-titles">
+                        <div class="section-pretitle">Reservations</div>
+                        <img src="./src/img/vector.png" alt="" class="booking-vector">
+                        <div class="section-title">Book A Table</div>
+                    </div>
                     <form action="" class="booking-input-wrappers">
                         <div class="booking-input-wrapper">
                             <select name="persons" id="" class="input-wrapper-inside">
@@ -106,19 +108,21 @@
                         <button type="submit" class="button booking-button">Book Now</button>
                     </form>
                 </div>
-            </div>
-            <div class="menu-searches">
+            </section>
+            <section class="menu-searches">
                 <img src="./src/img/favicon.png" alt="" class="menu-searches-icon">
                 <ul class="menu-searches-links">
-                    <li><a href="" class="menu-searches-link">Bar Menu</a></li>
+                    <li><a href="#barmenu-id" class="menu-searches-link">Bar Menu</a></li>
                     <li><a href="" class="menu-searches-link">Food Menu</a></li>
                     <li><a href="" class="menu-searches-link">Desserts Menu</a></li>
                 </ul>
-            </div>
-            <div class="barmenu-special">
-                <div class="section-pretitle">Menu that fits you palatte</div>
-                <img src="./src/img/vector.png" alt="" class="barmenu-special-vector">
-                <div class="section-title">Today’s Special</div>
+            </section>
+            <section class="barmenu-special" id="barmenu-id">
+                <div class="section-titles">
+                    <div class="section-pretitle">Menu that fits you palatte</div>
+                    <img src="./src/img/vector.png" alt="" class="barmenu-special-vector">
+                    <div class="section-title">Today’s Special</div>
+                </div>
                 <div class="barmenu-special-groups">
                     <div class="barmenu-special-group">
                         <div class="barmenu-special-group-title">Wine & Beer</div>
@@ -198,11 +202,233 @@
                     </div>
                 </div>
                 <button class="button barmenu-button">View More</button>
-            </div>
-            <div class="believs">
-                img
-            </div>
+            </section>
+            <section class="believes">
+                <div class="believes-groups">
+                    <img src="./src/img/believes-picture.png" alt="" class="believes-picture">
+                    <div class="believes-group">
+                        <div class="section-pretitle">Chef’s Word</div>
+                        <img src="./src/img/vector.png" alt="" class="believes-vector">
+                        <div class="section-title">What We Believe In</div>
+                        <p class="believes-text"><svg width="47" height="40" viewBox="0 0 47 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.9137 22.8571C15.3163 22.8571 17.2183 23.6592 18.6198 25.2632C20.1214 26.7669 20.8722 28.7719 20.8722 31.2782C20.8722 33.985 19.9712 36.1404 18.1693 37.7444C16.4675 39.2481 14.115 40 11.1118 40C7.60809 40 4.85517 38.6466 2.85304 35.9399C0.951012 33.2331 0 29.3734 0 24.3609C0 19.8496 1.00107 15.6892 3.00319 11.8797C5.00533 7.96992 8.00852 4.06015 12.0128 0.150374C12.1129 0.0501247 12.263 0 12.4633 0C12.7636 0 13.0138 0.150374 13.2141 0.451122C13.4143 0.751876 13.4143 1.0025 13.2141 1.203C8.30884 6.21553 5.85623 12.1303 5.85623 18.9474C5.85623 21.7544 6.35676 23.8095 7.35783 25.1128C8.25879 23.609 10.1108 22.8571 12.9137 22.8571ZM39.0415 22.8571C41.4441 22.8571 43.3461 23.6592 44.7476 25.2632C46.2492 26.7669 47 28.7719 47 31.2782C47 33.985 46.099 36.1404 44.2971 37.7444C42.5953 39.2481 40.2428 40 37.2396 40C33.7359 40 30.983 38.6466 28.9808 35.9399C27.0788 33.2331 26.1278 29.3734 26.1278 24.3609C26.1278 19.8496 27.1289 15.6892 29.131 11.8797C31.1331 7.96992 34.1363 4.06015 38.1406 0.150374C38.2407 0.0501247 38.3908 0 38.5911 0C38.8914 0 39.1416 0.150374 39.3419 0.451122C39.5421 0.751876 39.5421 1.0025 39.3419 1.203C34.4366 6.21553 31.984 12.1303 31.984 18.9474C31.984 21.7544 32.4846 23.8095 33.4856 25.1128C34.3866 23.609 36.2386 22.8571 39.0415 22.8571Z"
+                                    fill="white" />
+                            </svg>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit
+                            auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque
+                            scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer
+                            curabitur semper sit nunc.</p>
+                        <div class="believes-name">Kevin Luo</div>
+                        <div class="believes-profession">Chef & Founder</div>
+                        <img src="./src/img/believes-signature.svg" alt="" class="believes-signature">
+                    </div>
+                </div>
+            </section>
+            <section class="testimony">
+                <img src="./src/img/favicon.png" alt="" class="testimony-icon">
+                <div class="section-titles">
+                    <div class="section-pretitle">Testimony</div>
+                    <img src="./src/img/vector.png" alt="" class="testimony-vector">
+                    <div class="section-title">Happy Customers</div>
+                </div>
+                <div class="testimony-groups">
+                    <div class="testimony-group">
+                        <img src="./src/img/testimony-img1.webp" alt="" class="testimony-group-img">
+                        <div class="testimony-group-info">
+                            <p class="testimony-group-text">Lorem ipsum dolor sit amet, consectetur adipiscing sit.
+                                auctor
+                                sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque
+                                scelerisque
+                                congue.</p>
+                            <div class="testimony-group-name">Wade Warren</div>
+                            <div class="testimony-group-profession">Sommelier</div>
+                        </div>
+                    </div>
+
+                    <div class="testimony-group">
+                        <img src="./src/img/testimony-img2.webp" alt="" class="testimony-group-img">
+                        <div class="testimony-group-info">
+                            <p class="testimony-group-text">Lorem ipsum dolor sit amet, consectetur adipiscing sit.
+                                auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque
+                                scelerisque congue.</p>
+                            <div class="testimony-group-name">Jane Cooper</div>
+                            <div class="testimony-group-profession">Chef</div>
+                        </div>
+                    </div>
+
+                    <div class="testimony-group">
+                        <img src="./src/img/testimony-img3.webp" alt="" class="testimony-group-img">
+                        <div class="testimony-group-info">
+                            <p class="testimony-group-text">Lorem ipsum dolor sit amet, consectetur adipiscing sit.
+                                auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque
+                                scelerisque congue.</p>
+                            <div class="testimony-group-name">Robert Fox</div>
+                            <div class="testimony-group-profession">Chef</div>
+                        </div>
+                    </div>
+
+                    <div class="testimony-group">
+                        <img src="./src/img/testimony-img4.webp" alt="" class="testimony-group-img">
+                        <div class="testimony-group-info">
+                            <p class="testimony-group-text">Lorem ipsum dolor sit amet, consectetur adipiscing sit.
+                                auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque
+                                scelerisque congue.</p>
+                            <div class="testimony-group-name">Brooklyn Simmons</div>
+                            <div class="testimony-group-profession">Caterer</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="video">
+                <img src="./src/img/favicon.png" alt="" class="video-icon">
+            </section>
+            <section class="awards">
+                <div class="awards-info">
+                    <div class="section-pretitle">Awards & Recognition</div>
+                    <img src="./src/img/vector.png" alt="" class="awards-vector">
+                    <div class="section-title">Our Laurels</div>
+                    <div class="awards-info-groups">
+                        <div class="awards-info-group">
+                            <img src="./src/img/awards-img1.png" alt="" class="awards-info-img">
+                            <div class="award-info-minigroup">
+                                <div class="awards-info-name">Bib Gourmond</div>
+                                <p class="awards-info-text">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="awards-info-group">
+                            <img src="./src/img/awards-img2.png" alt="" class="awards-info-img">
+                            <div class="award-info-minigroup">
+                                <div class="awards-info-name">Rising Star</div>
+                                <p class="awards-info-text">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="awards-info-group">
+                            <img src="./src/img/awards-img3.png" alt="" class="awards-info-img">
+                            <div class="award-info-minigroup">
+                                <div class="awards-info-name">AA Hospitality</div>
+                                <p class="awards-info-text">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="awards-info-group">
+                            <img src="./src/img/awards-img4.png" alt="" class="awards-info-img">
+                            <div class="award-info-minigroup">
+                                <div class="awards-info-name">Outstanding Chef</div>
+                                <p class="awards-info-text">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./src/img/awards-img.webp" alt="" class="awards-img">
+            </section>
+            <section class="update" id="update-id">
+                <div class="section-titles">
+                    <div class="section-pretitle">Blogs</div>
+                    <img src="./src/img/vector.png" alt="" class="update-vector">
+                    <div class="section-title">Gerícht Updates</div>
+                </div>
+                <div class="update-groups">
+                    <div class="update-group">
+                        <img src="./src/img/updates-img1.jpg" alt="" class="update-img">
+                        <div class="update-group-preinfo1">
+                            <div class="update-date">16 Apr 2021</div>
+                            <div class="update-person">- Annalisa L</div>
+                        </div>
+                        <a href="#" class="update-title">Tips For Prepping And Caring For Your Grill</a>
+                        <p class="update-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis
+                            ipsum turpis elit elit scelerisque egestas mus in.</p>
+                        <a href="#" class="update-readmore">Read More</a>
+                    </div>
+                    <div class="update-group">
+                        <img src="./src/img/updates-img2.jpg" alt="" class="update-img">
+                        <div class="update-group-preinfo2">
+                            <div class="update-date">23 May 2021</div>
+                            <div class="update-person">-John Micheal</div>
+                        </div>
+                        <a href="#" class="update-title">Summer Cocktails And Mocktails</a>
+                        <p class="update-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis
+                            ipsum turpis elit elit scelerisque egestas mus in.</p>
+                        <a href="#" class="update-readmore">Read More</a>
+                    </div>
+                    <div class="update-group">
+                        <img src="./src/img/updates-img3.jpg" alt="" class="update-img">
+                        <div class="update-group-preinfo3">
+                            <div class="update-date">06 Aug 2021</div>
+                            <div class="update-person">-Fred W</div>
+                        </div>
+                        <a href="#" class="update-title">Easy Cooking For College Students</a>
+                        <p class="update-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis
+                            ipsum turpis elit elit scelerisque egestas mus in.</p>
+                        <a href="#" class="update-readmore">Read More</a>
+                    </div>
+                    <button class="button">View More</button>
+                </div>
+                <img src="./src/img/favicon.png" alt="" class="update-icon">
+            </section>
+            <section class="gallery">
+                <div class="gallery-info-group">
+                    <div class="section-pretitle">Instagram</div>
+                    <img src="./src/img/vector.png" alt="" class="gallery-vector">
+                    <div class="section-title">Photo Gallery</div>
+                    <p class="gallery-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis
+                        ipsum turpis elit elit scelerisque egestas mu.</p>
+                    <button class="button">View More</button>
+                </div>
+                <div class="gallery-photo-group">
+                    <img src="./src/img/gallery-img1.jpg" alt="" class="gallery-img">
+                    <img src="./src/img/gallery-img2.jpg" alt="" class="gallery-img">
+                    <img src="./src/img/gallery-img3.jpg" alt="" class="gallery-img">
+                    <img src="./src/img/gallery-img4.jpg" alt="" class="gallery-img">
+                </div>
+            </section>
+            <img src="./src/img/favicon.png" alt="" class="gallery-icon">
         </main>
+        <footer class="footer">
+            <section class="newsletter">
+                <div class="newsletter-box" id="newsletter-id">
+                    <div class="section-titles">
+                        <div class="section-pretitle">Newsletter</div>
+                        <img src="./src/img/vector.png" alt="" class="newsletter-vector">
+                        <div class="section-title">Subscribe to Our Newsletter</div>
+                    </div>
+                    <p class="newsletter-text">And never miss latest Updates!</p>
+                    <form action="" class="newsletter-form">
+                        <input type="email" name="email" placeholder="Email Address" class="newsletter-email">
+                        <button type="submit" class="button">Subscribe</button>
+                    </form>
+                </div>
+                <a href="#header-id">
+                    <img src="./src/img/footer-back-to-top.png" alt="" class="newsletter-back-to-top">
+                </a>
+            </section>
+            <section class="footer-info" id="footer-id">
+                <div class="footer-contact-us">
+                    <div class="footer-name">Contact Us</div>
+                    <a href="#" class="footer-place">9 W 53rd St, New York, NY 10019, USA</a>
+                    <a href="tel:+1 212-344-1230" class="footer-number">+1 212-344-1230</a>
+                    <a href="tel:+1 212-555-1230" class="footer-number second-number">+1 212-555-1230</a>
+                </div>
+                <div class="footer-middle-group">
+                    <div class="footer-title">Gerícht</div>
+                    <p class="footer-text">"The best way to find yourself is to lose yourself in the service of others.”</p>
+                    <img src="./src/img/vector.png" alt="" class="footer-vector">
+                    <ul class="footer-links">
+                        <li><a href="https://uk-ua.facebook.com/" target="_blank"><img src="./src/img/footer-link-facebook.png" alt="" class="footer-link-img"></a></li>
+                        <li><a href="https://x.com/?lang=uk" target="_blank"><img src="./src/img/footer-link-twitter.png" alt="" class="footer-link-img"></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./src/img/footer-link-insta.png" alt="" class="footer-link-img"></a></li>
+                    </ul>
+                </div>
+                <div class="footer-working-hours">
+                    <div class="footer-name">Working Hours</div>
+                    <p class="footer-hours first-hours">Monday-Friday:
+                        08:00 am -12:00 am</p>
+                    <p class="footer-hours">Saturday-Sunday:
+                        07:00am -11:00 pm</p>
+                </div>
+                <div class="footer-the-end">2021 Gerícht. All Rights reserved.</div>
+            </section>
+        </footer>
     </div>
 </body>
 
