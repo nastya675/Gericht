@@ -14,9 +14,9 @@
 
 .container {
     width: 1920px;
-    height: 12093px;
+    height: 8520px;
     margin: 0 auto;
-    background: url(./src/img/waveelement.png) no-repeat 20px 1110px / contain #0C0B08;
+    background: url(./src/img/waveelement.png) no-repeat 20px 1110px / 1920px 12445px #0C0B08;
 
 }
 
@@ -93,7 +93,7 @@
     gap: 40px;
     width: 32px;
     height: 161px;
-    
+
 }
 
 .ontherocks-hashtag {
@@ -155,7 +155,7 @@
     width: 619px;
     height: 825px;
     border: 1px solid #DCCA87;
-    
+
 }
 
 .ontherocks-scroll {
@@ -260,4 +260,529 @@
     letter-spacing: 0.04em;
     padding: 8px 32px 8px 32px;
     cursor: pointer;
+}
+
+.aboutus {
+    background: url(./src/img/background.jpg) no-repeat 0 0 / 1920px 1064px;
+    width: 1920px;
+    height: 1094px;
+    opacity: 0.5px;
+    margin-top: 152px;
+}
+
+.aboutus-icon {
+    margin-left: 146px;
+    margin-top: 3px;
+}
+
+.aboutus-content {
+    display: flex;
+}
+
+.aboutus-img {
+    width: 523px;
+    height: 702px;
+    margin-top: 110px;
+    margin-left: 310px;
+}
+
+.aboutus-group-img {
+    width: 634px;
+    height: 385px;
+    margin-bottom: 40px;
+}
+
+.aboutus-group {
+    width: 614px;
+    height: 413px;
+    margin-left: -180px;
+    margin-top: -20px;
+}
+
+.aboutus-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    width: 523px;
+    height: 84px;
+    margin: 0;
+    margin-top: 32px;
+}
+
+.aboutus-group .button {
+    margin-top: 32px;
+}
+
+.aboutus-group .section-title,
+.aboutus-vector {
+    margin-top: 8px;
+}
+
+.poison {
+    margin-top: 152px;
+}
+
+.poison-pictures {
+    display: flex;
+    margin-top: 64px;
+    gap: 32px;
+    width: 1300px;
+    height: 600px;
+}
+
+.poison-img {
+    border: 1px solid #DCCA8733;
+    width: 410px;
+    height: 600px;
+    display: block;
+}
+
+.poison-mini-group {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.poison-overlay {
+    font-family: "Cormorant Upright", serif;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: rgb(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poison-overlay:hover {
+    opacity: 1;
+}
+
+.happyhours {
+    background: url(./src/img/happyhours-bg.jpg) no-repeat 0 0 / 1920px 900px;
+    width: 1920px;
+    height: 900px;
+    margin-top: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.happyhours-title {
+    font-family: "Cormorant Upright", serif;
+    font-size: 128px;
+    font-weight: 600;
+    line-height: 166.4px;
+    letter-spacing: 0.03em;
+    color: #DCCA87;
+
+}
+
+.happyhours-schedule {
+    font-family: "Cormorant Upright", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+.barmenu-special {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    height: 970px;
+    margin-top: -90px;
+    margin-left: 300px;
+}
+
+.barmenu-special-groups {
+    display: flex;
+    margin-top: 96px;
+    gap: 32px;
+}
+
+.barmenu-special-group-title {
+    font-family: "Cormorant Upright", serif;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.barmenu-special-minigroup {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+.barmenu-minigroup-drink {
+    font-family: "Cormorant Upright", serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #DCCA87;
+    width: 192px;
+    height: 27px;
+}
+
+.barmenu-minigroup-price {
+    font-family: "Cormorant Upright", serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.barmenu-minigroup-line {
+    width: 119px;
+    height: 1px;
+}
+
+.barmenu-minigroup-info {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #AAAAAA;
+    display: block;
+    margin-right: 315px;
+}
+
+.barmenu-special-group2 .barmenu-minigroup-info {
+    margin-right: 0;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.barmenu-special-photo {
+    margin-top: -32px;
+}
+
+.barmenu-button {
+    margin-top: 72px;
+}
+
+.barmenu-icon {
+    margin-top: 94px;
+    margin-left: 1567px;
+}
+
+.findus {
+    background: url(./src/img/background.jpg) no-repeat 0 0 / 1920px 992px;
+    width: 1920px;
+    height: 992px;
+    display: flex;
+    margin-top: 152px;
+}
+
+.findus-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #AAAAAA;
+    margin-top: 64px;
+}
+
+.findus-open {
+    font-family: "Cormorant Upright", serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #DCCA87;
+    margin-top: 32px;
+}
+
+.findus-hours {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 245px;
+    height: 28px;
+    margin: 0;
+    margin-top: 16px;
+}
+
+.findus-icon {
+    width: 146px;
+    height: 146px;
+    margin-left: 97px;
+    margin-top: -120px;
+}
+
+.findus-group {
+    width: 513px;
+    height: 488px;
+    margin-top: 249px;
+
+}
+
+.findus-vector,
+.findus .section-title {
+    margin-top: 8px;
+}
+
+.findus .button {
+    margin-top: 64px;
+}
+
+.findus-img {
+    width: 667px;
+    height: 736px;
+    margin-top: 128px;
+
+}
+
+.findus-content {
+    width: 1300px;
+    height: 736px;
+    display: flex;
+    gap: 120px;
+    margin-left: -235px;
+}
+
+
+.newsletter {
+    padding-top: 152px;
+    background: url(./src/img/favicon.png) no-repeat 1570px 30px;
+}
+
+.newsletter-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 442px;
+    border: 1px solid #DCCA8733;
+    gap: 64px;
+    background: #0C0C0C;
+    box-shadow: 22px 30px 95px 1px #000000B2;
+}
+
+.newsletter-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -40px;
+}
+
+.newsletter-email {
+    width: 635px;
+    height: 60px;
+    border: 1px;
+    border: 1px solid #F5EFDB;
+    font-family: "Cormorant Upright", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #AAAAAA;
+    padding-left: 18px;
+    background: #0C0C0C;
+}
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 796px;
+    height: 60px;
+    gap: 12px;
+
+}
+
+.newsletter-back-to-top {
+    margin-left: 1768px;
+    margin-top: -45px;
+}
+
+.footer-name {
+    font-family: "Cormorant Upright", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #F5EFDB;
+}
+
+.footer-number,
+.footer-place {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
+.footer-place {
+    margin-top: 20px;
+}
+
+.footer-number {
+    margin-top: 8px;
+}
+
+.footer-contact-us {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 158px;
+    margin-top: 40px;
+    margin-left: -5px;
+}
+
+.footer-middle-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 438px;
+    height: 236px;
+    margin-top: 15px;
+    margin-right: 160px;
+}
+
+.footer-title {
+    font-family: "Cormorant Upright", serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #DCCA87;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+.footer-vector,
+.footer-links {
+    margin-top: 16px;
+}
+
+.footer-links {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin-left: 125px;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+.footer-link-img {
+    width: 24px;
+    height: 24px;
+
+}
+
+.footer-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin-top: 60px;
+
+}
+
+.footer {
+    background: url(./src/img/footer-bg.jpg) no-repeat 0 380px / 1920px 1200px;
+    width: 1920px;
+    height: 1200px;
+
+}
+
+.footer-working-hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 186px;
+    gap: 8px;
+    margin-right: -10px;
+    margin-top: 35px;
+}
+
+
+
+.footer-hours {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #AAAAAA;
+    width: 160px;
+}
+
+.footer-the-end {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #AAAAAA;
+    margin-top: 75px;
+
+}
+
+.first-hours {
+    margin-top: 16px;
+}
+
+.second-number {
+    margin-top: -1px;
 }
