@@ -11,13 +11,33 @@
     padding: 0 auto;
 }
 
+body {
+    background: #000;
+ }
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--button-color);
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #DCCA87;
+}
 
 .container {
     width: 1920px;
     height: 8520px;
     margin: 0 auto;
     background: url(./src/img/waveelement.png) no-repeat 20px 1110px / 1920px 12445px #0C0B08;
-
+    box-shadow: rgba(131, 131, 131, 0.15) 0px 48px 100px 0px;
 }
 
 

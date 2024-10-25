@@ -5,20 +5,40 @@
     scroll-behavior: smooth;
 }
 
+body {
+   background: #000;
+}
+
 * {
     user-select: none;
     margin: 0 auto;
     padding: 0 auto;
+    
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
 
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--button-color);
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #DCCA87;
+}
 
 .container {
     width: 1920px;
-    height: 12093px;
+    height: 12220px;
     margin: 0 auto;
     background: url(./src/img/waveelement.png) no-repeat 60px 1110px / contain #0C0B08;
-
+    box-shadow: rgba(131, 131, 131, 0.15) 0px 48px 100px 0px;
 }
 
 .header {
