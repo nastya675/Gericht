@@ -6,14 +6,14 @@
 }
 
 body {
-   background: #000;
+    background: #000;
 }
 
 * {
     user-select: none;
     margin: 0 auto;
     padding: 0 auto;
-    
+
 }
 
 ::-webkit-scrollbar {
@@ -327,7 +327,7 @@ body {
     align-items: center;
     width: 1364px;
     height: 466px;
-    padding: 48px 32px 48px 32px;
+    padding: 48px 32px;
     border: 1px;
     background: #0C0C0C;
     border: 1px solid #DCCA8733;
