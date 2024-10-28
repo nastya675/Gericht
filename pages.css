@@ -12,7 +12,7 @@
 }
 
 body {
-    background: #000;
+    background: linear-gradient(90deg, rgba(12,11,8,1) 0%, rgba(220,202,135,1) 50%, rgba(0,0,0,1) 100%);
 }
 
 ::-webkit-scrollbar {
