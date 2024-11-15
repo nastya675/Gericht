@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(90deg, rgba(12,11,8,1) 0%, rgba(220,202,135,1) 50%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(12, 11, 8, 1) 0%, rgba(220, 202, 135, 1) 50%, rgba(0, 0, 0, 1) 100%);
 }
 
 * {
@@ -187,8 +187,11 @@ body {
     font-weight: 700;
     line-height: 28px;
     letter-spacing: 0.04em;
-    padding: 8px 32px 8px 32px;
+    padding: 8px 32px;
     cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-align: center;
 }
 
 .main-menu-button {
@@ -226,6 +229,16 @@ body {
     height: 113px;
     margin-top: 730px;
     margin-right: -10px;
+}
+
+.aboutus-ourhistory-link {
+    text-decoration: none;
+    color: #0C0B08;
+    font-family: "Cormorant Upright", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
 }
 
 .about-us-our-history {
@@ -413,22 +426,22 @@ body {
 
 .menu-searches-link {
     display: inline-block;
-  position: relative;
-  text-decoration: none;
+    position: relative;
+    text-decoration: none;
 }
 
-.menu-searches-link::after{
+.menu-searches-link::after {
     content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  border-radius: 5px;
-  height: 0.05em;
-  bottom: 0;
-  left: 0;
-  background: currentcolor;
-  transform-origin: bottom right;
-  transition: transform 0.75s ease-out;
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 0.05em;
+    bottom: 0;
+    left: 0;
+    background: currentcolor;
+    transform-origin: bottom right;
+    transition: transform 0.75s ease-out;
 }
 
 .section-titles {

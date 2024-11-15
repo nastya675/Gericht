@@ -12,7 +12,7 @@
 }
 
 body {
-    background: linear-gradient(90deg, rgba(12,11,8,1) 0%, rgba(220,202,135,1) 50%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(12, 11, 8, 1) 0%, rgba(220, 202, 135, 1) 50%, rgba(0, 0, 0, 1) 100%);
 }
 
 ::-webkit-scrollbar {
@@ -278,7 +278,7 @@ body {
     font-weight: 700;
     line-height: 28px;
     letter-spacing: 0.04em;
-    padding: 8px 32px 8px 32px;
+    padding: 8px 32px;
     cursor: pointer;
 }
 
@@ -330,6 +330,16 @@ body {
     height: 84px;
     margin: 0;
     margin-top: 32px;
+}
+
+.aboutus-link {
+    text-decoration: none;
+    color: #0C0B08;
+    font-family: "Cormorant Upright", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
 }
 
 .aboutus-group .button {

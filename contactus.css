@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root {
+    scroll-behavior: smooth;
+}
+
+* {
+    user-select: none;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(12, 11, 8, 1) 0%, rgba(220, 202, 135, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--button-color);
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #DCCA87;
+}
+
+.container {
+    width: 1920px;
+    height: 3761px;
+    margin: 0 auto;
+    background: url(./src/img/waveelement.png) no-repeat 20px 1110px / 1920px 12445px #0C0B08;
+    box-shadow: rgba(131, 131, 131, 0.15) 0px 48px 100px 0px;
+}
+
+
+.section-titles {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.section-title {
+    font-family: "Cormorant Upright", serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    color: #DCCA87;
+}
+
+
+.section-pretitle {
+    font-family: "Cormorant Upright", serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+.button {
+    background: #DCCA87;
+    color: #0C0B08;
+    font-family: "Cormorant Upright", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    padding: 8px 32px;
+    cursor: pointer;
+}
+
+.header {
+    padding-top: 32px;
+}
+
+.header-logo {
+    font-family: "Cormorant Upright", serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.2px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-left: 120px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-nav {
+    list-style-type: none;
+    display: flex;
+    margin-top: -45px;
+    margin-left: 715px;
+    gap: 32px;
+    width: 410px;
+    cursor: pointer;
+}
+
+.header-nav a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+    margin-top: -43px;
+    margin-right: 115px;
+    width: 370px;
+}
+
+.header-info a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.header-nav-info-line {
+    height: 57px;
+}
+
+.contactus-main {
+    width: 1920px;
+    height: 679px;
+    margin-top: 32px;
+    opacity: 0.5px;
+    background-image: url(./src/img/contactus-bg.jpg);
+    position: relative;
+}
+
+.contactus-bg-shadow {
+    width: 1920px;
+    height: 679px;
+    top: 121px;
+    opacity: 50%;
+    background-color: #0C0C0C;
+
+}
+
+.contactus-group {
+    position: absolute;
+    margin-top: -480px;
+    margin-left: 746px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactus-main-links {
+    display: flex;
+    list-style-type: none;
+    width: 210px;
+    height: 30px;
+    gap: 16px;
+    margin-top: -45px;
+    margin-left: 75px;
+}
+
+.contactus-main-link {
+
+    font-family: "Cormorant Upright", serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contactus-main-title {
+    font-family: "Cormorant Upright", serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 117px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #DCCA87;
+}
+
+.contactus-main-vector {
+    width: 8px;
+    height: 13px;
+    margin-top: 7px;
+}
+
+.map-img {
+    border: 2px solid #DCCA87;
+    width: 1300px;
+    height: 500px;
+    margin-left: 310px;
+    margin-top: 80px;
+}
+
+.map-favicon {
+    margin-left: 63px;
+    margin-top: 580px;
+
+}
+
+.map {
+    display: flex;
+    align-items: center;
+}
+
+.subscripion {
+    background: url(./src/img/background.jpg);
+    width: 1920px;
+    height: 947px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.subscripion-wrappers {
+    display: flex;
+    flex-direction: column;
+    width: 635px;
+    height: 400px;
+    gap: 32px;
+    align-items: flex-start;
+    margin-left: 300px;
+}
+
+.sub-input {
+    width: 635px;
+    height: 60px;
+    border: 1px solid #F5EFDB;
+    font-family: "Cormorant Upright", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    padding-left: 19px;
+    background-color: transparent;
+}
+
+.sub-img {
+    width: 554px;
+    height: 691px;
+    margin-left: -100px;
+}
+
+.sub-input1 {
+    width: 635px;
+    height: 140px;
+    border: 1px solid #F5EFDB;
+    font-family: "Cormorant Upright", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    padding-left: 19px;
+    background-color: transparent;
+}
+
+
+.newsletter {
+    padding-top: 152px;
+    background: url(./src/img/favicon.png) no-repeat 260px 30px;
+}
+
+.newsletter-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 442px;
+    border: 1px solid #DCCA8733;
+    gap: 64px;
+    background: #0C0C0C;
+    box-shadow: 22px 30px 95px 1px #000000B2;
+}
+
+.newsletter-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -40px;
+}
+
+.newsletter-email {
+    width: 635px;
+    height: 60px;
+    border: 1px;
+    border: 1px solid #F5EFDB;
+    font-family: "Cormorant Upright", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #AAAAAA;
+    padding-left: 18px;
+    background: #0C0C0C;
+}
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 796px;
+    height: 60px;
+    gap: 12px;
+
+}
+
+.newsletter-back-to-top {
+    margin-left: 1768px;
+    margin-top: -45px;
+}
+
+.footer-name {
+    font-family: "Cormorant Upright", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #F5EFDB;
+}
+
+.footer-number,
+.footer-place {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
+.footer-place {
+    margin-top: 20px;
+}
+
+.footer-number {
+    margin-top: 8px;
+}
+
+.footer-contact-us {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 158px;
+    margin-top: 40px;
+    margin-left: -5px;
+}
+
+.footer-middle-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 438px;
+    height: 236px;
+    margin-top: 15px;
+    margin-right: 160px;
+}
+
+.footer-title {
+    font-family: "Cormorant Upright", serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #DCCA87;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+.footer-vector,
+.footer-links {
+    margin-top: 16px;
+}
+
+.footer-links {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin-left: 125px;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+.footer-link-img {
+    width: 24px;
+    height: 24px;
+
+}
+
+.footer-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin-top: 60px;
+
+}
+
+.footer {
+    background: url(./src/img/footer-bg.jpg) no-repeat 0 380px / 1920px 1200px;
+    width: 1920px;
+    height: 1200px;
+
+}
+
+.footer-working-hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 186px;
+    gap: 8px;
+    margin-right: -10px;
+    margin-top: 35px;
+}
+
+
+
+.footer-hours {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #AAAAAA;
+    width: 160px;
+}
+
+.footer-the-end {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #AAAAAA;
+    margin-top: 75px;
+
+}
+
+.first-hours {
+    margin-top: 16px;
+}
+
+.second-number {
+    margin-top: -1px;
+}
